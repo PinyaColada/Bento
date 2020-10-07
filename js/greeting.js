@@ -14,9 +14,9 @@ var gree5 = 'Good evening ';
 var gree6 = 'Good evening ';
 
 // Define the hours of the greetings
-if (Hr >= 23 && Hr < 5) {
+if (Hr >= 2 && Hr < 6) {
     document.getElementById('greetings').innerText = gree1 + name;
-} else if (Hr >= 6 && Hr < 12) {
+} else if (Hr >= 7 && Hr < 12) {
     document.getElementById('greetings').innerText = gree2 + name;
 } else if (Hr >= 12 && Hr < 17) {
     document.getElementById('greetings').innerText = gree3 + name;
